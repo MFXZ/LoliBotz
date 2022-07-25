@@ -1,16 +1,16 @@
 let fs = require('fs')                    //CREATOR = YahyaGanzz , DEVBOT
 let chalk = require('chalk')
 global.owner = [
-  ['6287734910547'],
-  ['6287734910547'],
-  ['6287734910547', 'ʟᴏʟɪʙᴏᴛ', true]  
+  ['628981614707'],
+  ['628981614707'],
+  ['628981614707', 'MFX', true]  
   
 ] 
-global.ownername = [['VinGanzz']]
+global.ownername = [['MFX']]
 global.namabot = [['𝙇𝙤𝙡𝙞𝘽𝙤𝙩-𝙈𝘿']]
-global.ownerinsta = [['@_alv.stn']]
+global.ownerinsta = [['@MFX']]
 global.mods = [] 
-global.prems = [6287734910547] 
+global.prems = [628981614707] 
 
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -46,8 +46,8 @@ if (stickerpack.spackname == '') {
   var sticker_name = 'LoliBot-MD'
   var sticker_author = 'By Vinz'
 } else {
-  var sticker_name = stickerpack.spackname
-  var sticker_author = stickerpack.sauthor
+  var sticker_name = Ceated By.spackname
+  var sticker_author = LOLIBOT.sauthor
 }
 
 const file_exif = "lib/exif.json"
@@ -59,9 +59,10 @@ fs.watchFile(file_exif, () => {
 })
 
 // Sticker WM
-global.packname = sticker_name
-global.author = sticker_author
-global.wm = 'Created by VinzGanss'
+global.packname = Created By
+global.author = LoliBot
+
+global.wm = 'Created by MFX'
 
 global.multiplier = 1000 // The higher, The harder levelup
 
